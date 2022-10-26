@@ -1,20 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Pal - 5 Day Weather Forecast</title>
+    <!-- Links for jQuery, google fonts, bootstrap & style.css -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
+    <!-- Header banner -->
     <header>
         <h1>Weather Pal 🌞 Your friendly 5 Day Weather Forecaster ⛈️</h1>
     </header>
+
+    <!-- Start of Main Content Area -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 left-side">
+                <!-- Search Bar -->
+                <div id="search">
+                    <h3>Search for a City</h3>
+                    <input id="search-field" type="search" placeholder="Enter A City"><br>
+                    <input id="search-button" type="submit">
+                </div>
+                <!-- Recent Searches -->
+                <div id="recent-search">
+                    <h3>Recent Searches:</h3>
+                    <ul></ul>
+                </div>
+            </div>
+            <!-- Searched City -->
+            <div class="col-md-8 right-side">
+                <div id="search-selected">
+                    <h3><span id="">City:</span><span id=""></span></h3>
+                    <p>Temp:<span></span></p>
+                    <p>Wind Speed:<span></span></p>
+                    <p>Humidity: <span></span></p>
+                    <h3>5 Day Forecast</h3>
+                    <!-- Searched 5 Day Forecast -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- Day 1 -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb 3 p-2 rounded">
+                                <p>Date:<span></span></p>
+                                <p>Temp: <span></span></p>
+                                <p>Wind Speed:<span></span></p>
+                                <p>Humidity: <span></span></span></p>
+                            </div>
+                            <!-- Day 2-->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb 3 p-2 rounded">
+                                <p>Date: <span></span></p>
+                                <p>Temp: <span></span></p>
+                                <p>Wind Speed: <span></span></p>
+                                <p>Humidity: <span></span></p>
+                            </div>
+                            <!-- Day 3 -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb 3 p-2 rounded">
+                                <p>Date: <span></span></p>
+                                <p>Temp: <span></span></p>
+                                <p>Wind Speed: <span></span></p>
+                                <p>Humidity: <span></span></p>
+                            </div>
+                            <!-- Day 4 -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb 3 p-2 rounded">
+                                <p>Date: <span></span></p>
+                                <p>Temp: <span></span></p>
+                                <p>Wind Speed: <span></span></p>
+                                <p>Humidity: <span></span></p>
+                            </div>
+                            <!-- Day 5 -->
+                            <div class="col-sm-2 bg-primary forecast text-white ml-2 mb 3 p-2 rounded">
+                                <p>Date: <span></span></p>
+                                <p>Temp: <span></span></p>
+                                <p>Wind Speed: <span></span></p>
+                                <p>Humidity: <span></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <script src="./assets/script.js"></script>
+
 </html>
