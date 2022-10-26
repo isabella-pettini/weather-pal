@@ -1,37 +1,25 @@
 # The Weather Pal
 
 ## Description:
+A simple weather site that will give you a 5 day weather forecast based on the city you search for. 
 
 ## Installation:
+N/A
 
 ## Usage:
+Weather Pal is an easy to use site that will give you the current temperature, the wind speed and the humidity based on the city you have searched. It will also give you the next 5 days of the weather forecast as well. Weather Pal will also save your recent searches so you don't have to search for the city you just looked up. It will appear right below the search bar so you can quickly go back to reference you previous searches. 
+<br>
+
+![alt text](./assets/images/weatherpal%20img%2001.JPG)
 
 ## Link To Deployed Webpage:
 
+ [Weather Pal](https://isabella-pettini.github.io/weather-pal/)
+
 ## Credits:
+N/A
 
 ## License:
+Please refer to the LICENSE in the repo.
 
-## Study Group Notes/Acceptance criteria:
 
-GIVEN a weather dashboard with form inputs
-
-WHEN I search for a city
-THEN I am presented with current and future conditions for that city and that city is added to the search history
-
-WHEN I view current weather conditions for that city
-THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the wind speed
-
-WHEN I view future weather conditions for that city
-THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
-
-WHEN I click on a city in the search history
-THEN I am again presented with current and future conditions for that city
-
-<br>
-
-## Functionality:
-
-<br>
-
-![alt text](./assets/images/06-server-side-apis-homework-demo.png)

@@ -1,3 +1,13 @@
 * {
     font-family: 'Silkscreen', sans-serif;
 }
+
+header {
+    width: 100%;
+    background-color: grey;
+    color: antiquewhite;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
